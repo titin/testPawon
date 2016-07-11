@@ -17,9 +17,9 @@ public class ListAdapter extends BaseAdapter {
     private Context context;
     private List<DataModel> listData;
 
-    public ListAdapter(Context context, List<DataModel> listData) {
+    public ListAdapter(Context context, List<DataModel> listdata) {
         this.context = context;
-        this.listData = listData;
+        this.listData = listdata;
     }
 
     @Override
